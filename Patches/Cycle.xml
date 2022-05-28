@@ -1,0 +1,19 @@
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="BiosculpterPod"]/comps</xpath>
+    <value>
+      <li Class="Lilith.RimWorld.Biosculptor.BiosculptingCycle_CompProperties">
+        <key>LilithBiosculptingRemoveHediffs</key>
+        <label>cure addictions</label>
+        <description>Cures addictions of the pawn.</description>
+        <iconPath>UI/Gizmos/BionicCycle</iconPath>
+        <durationDays>15</durationDays>
+        <operatingColor>(1.000,0.918,0.000)</operatingColor>
+        <extraRequiredIngredients>
+          <MedicineUltratech>5</MedicineUltratech>
+          <Neutroamine>5</Neutroamine>
+        </extraRequiredIngredients>
+      </li>
+    </value>
+  </Operation>
+</Patch>
